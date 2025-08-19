@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 320px
+}
+
+.pixel {
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border: solid black 1px;
+
+}
